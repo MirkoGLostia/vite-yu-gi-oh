@@ -10,7 +10,7 @@ export default {
 <template>
     <section class="character text-center">
         <div class="bkcolororange">
-            <img class="img-fluid mb-3" src="./../assets/testimg.jpg">
+            <img class="img-fluid mb-3" :src="details.card_images[0].image_url">
             <div class="text-height">
                 <h4>{{ details.name }}</h4>
                 <div>{{ details.type }}</div>

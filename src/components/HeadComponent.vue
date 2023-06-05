@@ -5,21 +5,11 @@ export default {
 </script>
 
 <template>
-  <section class="container">
-    <h1>
+  <header class="container">
+    <h1 class="text-left my-5">
       Yu-Gi-Oh Api
     </h1>
-  </section>
+  </header>
 </template>
 
-<style scoped>
-.container {
-  width: 90%;
-  height: 50px;
-  margin: 0 auto;
-}
-
-h1 {
-  font-size: 40px;
-}
-</style>
+<style></style>
